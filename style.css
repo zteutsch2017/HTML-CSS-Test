@@ -1,0 +1,193 @@
+body {
+
+  background-image: url(bground.jpg);
+  background-attachment: fixed;
+
+}
+
+
+div.left {
+
+    position:absolute;
+    left:0; top:0; bottom: 0;
+    width: 8%;
+    height: 800px;
+    background-color: #DBEA13;
+
+}
+
+div.right {
+
+  position:absolute;
+  right:0; top:0; bottom: 0;
+  width: 8%;
+  height: 800px;
+  background-color: #DBEA13;
+
+}
+
+div.main {
+
+  margin-top: 50px;
+  text-align: center;
+
+
+
+}
+
+p {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+span.letter {
+  font-size: 30px;
+  color: #1DED28;
+}
+
+img.rocks {
+
+  margin-top: 50px;
+  top: 10%;
+  opacity: .5;
+
+}
+
+img.rocks:hover {
+
+  opacity: 1.0;
+}
+
+img.dog {
+  display:inline-block;
+  float:right;
+  height: 200px;
+  width: 200px;
+}
+
+
+
+ul.navbar {
+
+	position: fixed;
+  text-align: center;
+
+
+
+    top: 0;
+    right: 41%;
+
+
+
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+    background-color: #FC1F17;
+    overflow: hidden;
+    border-style: solid;
+    border-color: white;
+
+
+
+}
+
+
+ul.navbar li {
+
+	float: left;
+
+
+
+}
+
+ul.navbar li a {
+
+	  display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+
+}
+
+
+ul.navbar li a:active {
+
+	color: black;
+	display: block;
+	text-decoration: none;
+
+
+
+}
+
+ul.navbar li a:hover {
+
+	background-color: #F58783;
+
+
+}
+
+ul.navbar2 {
+
+    position: absolute;
+    top: 100%;
+    right: 38%;
+
+
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+    background-color: #FC1F17;
+    overflow: hidden;
+    border-style: solid;
+    border-color: white;
+
+
+
+}
+
+
+ul.navbar2 li {
+
+	float: left;
+
+
+}
+
+ul.navbar2 li a {
+
+	display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+
+}
+
+
+ul.navbar2 li a:active {
+
+	color: black;
+	display: block;
+	text-decoration: none;
+
+
+
+}
+
+ul.navbar2 li a:hover {
+
+	background-color: #F58783;
+
+
+}
+
+ol.list {
+  text-align: left;
+  margin-left: 42%;
+}
